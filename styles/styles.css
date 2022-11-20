@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*, *::after ,*::before{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+
+:root{
+    --color-white:hsl(252,30%,100%);
+    --color-gray:hsl(252,30%,95%);
+    --color-primary:#a5e8eb;
+    --color-success:hsl(120,95%,65%);
+    --color-danger:hsl(0,95%,65%);
+    --color-dark:#4f4c5b;
+    --color-black:hsl(252,30%,10%);
+
+    --border-radius:2rem;
+    --btn-padding:0.5rem 1.6rem;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color:var(--color-black) ;
+    background: #a5e8eb;
+    overflow-x: hidden;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* ==============================Navbar Css Code Starts Here====================================== */
+
+nav{
+    width: 100%;
+    background: var(--color-white);
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .container .options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.6rem;
+}
+nav .container .options .give-help{
+    font-weight: 600;
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+    background: var(--color-gray);
+}
+nav .container .options .give-help:hover,
+nav .container .options .get-help:hover{
+    background-color: var(--color-primary);
+    color: var(--color-gray);
+}
+nav .container .options .get-help{
+    font-weight: 600;
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+    background: var(--color-gray);
+}
+nav .container .options .login{
+    font-weight: 550;
+    padding: 0.5rem 1.2rem;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--color-black);
+    background:var(--color-gray);
+    transition: all 300ms ease;
+    font-size: 1rem;
+}
+
+/* ==============================Navbar Css Code Ends Here====================================== */
+
+/* ==============================Main Body Code Starts Here====================================== */
+main{
+    position: relative;
+    top: 4.5rem;
+    width: 85%;
+    margin: 0 auto;
+    height: max-content;
+}
+main .containers{
+    height: max-content;
+}
+
+/* ==============================Container-1 Code Starts Here====================================== */
+main .containers .container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-white);
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+}
+main .containers .container-1 .bg-img{
+    height: 25rem;
+    margin-top: 2rem;
+    margin-left: 5.4rem;
+}
+main .containers .container-1 .top-heading{
+    margin: 0 auto;
+}
+.text-heading{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: var(--color-dark);
+}
+.text-para{
+    text-align: center;
+    word-spacing: 0.1rem;
+}
+/* ==============================Container-1 Code Ends Here====================================== */
+
+/* ==============================Container-2 Code Starts Here====================================== */
+main .containers .container-2{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--color-white);
+    border-radius: 1.5rem;
+    padding: 2rem;
+}
+main .containers .container-2 .top-heading{
+    margin: 0 auto;
+    position: relative;
+    right: 4rem;
+    margin-top: 1.8rem;
+}
+main .containers .container-2 .top-heading div{
+    position: relative;
+    left: 14rem;
+}
+main .containers .container-2 .top-heading .right-arrow{
+    width: 5rem;
+    aspect-ratio: 1/1;
+}
+main .containers .container-2 .location-box{
+    position: relative;
+    right: 5rem;
+    background: #647575;
+    height: 14rem;
+    width: 25rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+main .containers .container-2 .location-box div{
+    display: flex;
+    align-items: center;
+    margin-top: 1.2em;
+    justify-content: center;
+    font-weight: 600;
+}
+main .containers .container-2 .location-box div input{
+    background-color: var(--color-white);
+    width: 15rem;
+    height: 2rem;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    color: var(--color-black);
+    border-radius: 0.7rem;
+    padding: 0.4rem;
+}
+main .containers .container-2 .location-box div .address{
+    margin-right: 0.4rem;
+}
+main .containers .container-2 .location-box div .locate-btn{
+    padding: 0.4rem;
+    border-radius: 0.7rem;
+    background: var(--color-white);
+    color: var(--color-dark);
+    font-size: 1rem;
+    font-weight: 530;
+}
+/* ==============================Container-2 Code Ends Here====================================== */
+
+/* ==============================Container-3 Code Starts Here====================================== */
+main .containers .container-3{
+    padding: 2rem;
+    margin-top: 1rem;
+    background: var(--color-white);
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
