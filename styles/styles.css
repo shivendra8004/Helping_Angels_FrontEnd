@@ -92,7 +92,7 @@ nav .container .options .login{
 /* ==============================Main Body Code Starts Here====================================== */
 main{
     position: relative;
-    top: 4.5rem;
+    top: 4.4rem;
     width: 85%;
     margin: 0 auto;
     height: max-content;
@@ -107,8 +107,6 @@ main .containers .container-1{
     justify-content: space-between;
     align-items: center;
     background: var(--color-white);
-    border-radius: 1.5rem;
-    margin-top: 1rem;
 }
 main .containers .container-1 .bg-img{
     height: 25rem;
@@ -126,18 +124,17 @@ main .containers .container-1 .top-heading{
 .text-para{
     text-align: center;
     word-spacing: 0.1rem;
+    padding:  0 4rem;
 }
 /* ==============================Container-1 Code Ends Here====================================== */
 
 /* ==============================Container-2 Code Starts Here====================================== */
 main .containers .container-2{
-    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: var(--color-white);
-    border-radius: 1.5rem;
-    padding: 2rem;
+    padding: 6rem 2rem;
 }
 main .containers .container-2 .top-heading{
     margin: 0 auto;
@@ -147,7 +144,8 @@ main .containers .container-2 .top-heading{
 }
 main .containers .container-2 .top-heading div{
     position: relative;
-    left: 14rem;
+    display: flex;
+    justify-content: center;
 }
 main .containers .container-2 .top-heading .right-arrow{
     width: 5rem;
@@ -157,7 +155,7 @@ main .containers .container-2 .location-box{
     position: relative;
     right: 5rem;
     background: #647575;
-    height: 14rem;
+    height: 16rem;
     width: 25rem;
     padding: 2rem;
     border-radius: 10px;
@@ -165,7 +163,7 @@ main .containers .container-2 .location-box{
 main .containers .container-2 .location-box div{
     display: flex;
     align-items: center;
-    margin-top: 1.2em;
+    margin-top: 1.4em;
     justify-content: center;
     font-weight: 600;
 }
@@ -178,15 +176,17 @@ main .containers .container-2 .location-box div input{
     color: var(--color-black);
     border-radius: 0.7rem;
     padding: 0.4rem;
+    cursor: pointer;
+    word-spacing: 0.05rem;
 }
 main .containers .container-2 .location-box div .address{
     margin-right: 0.4rem;
 }
 main .containers .container-2 .location-box div .locate-btn{
-    padding: 0.4rem;
-    border-radius: 0.7rem;
     background: var(--color-white);
     color: var(--color-dark);
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
     font-size: 1rem;
     font-weight: 530;
 }
@@ -194,11 +194,29 @@ main .containers .container-2 .location-box div .locate-btn{
 
 /* ==============================Container-3 Code Starts Here====================================== */
 main .containers .container-3{
-    padding: 2rem;
-    margin-top: 1rem;
+    padding: 0 3rem;
     background: var(--color-white);
-    border-radius: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+main .containers .container-3 .helping-angel{
+    padding: 0rem 3rem;
+}
+main .containers .container-3 .helping-angel div{
+    display: flex;
+    justify-content: center;
+}
+main .containers .container-3 .help-seeker div{
+    display: flex;
+    justify-content: center;
+}
+main .containers .container-3 .helping-angel div .btn-click,
+main .containers .container-3 .help-seeker div .btn-click{
+    margin-top: 1rem;
+    background: var(--color-dark);
+    padding: var(--btn-padding);
+    border-radius: var(--border-radius);
+    color: var(--color-white);
+}
+/* ==============================Container-3 Code Ends Here====================================== */
