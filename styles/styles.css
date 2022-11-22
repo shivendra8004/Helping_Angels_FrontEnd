@@ -344,3 +344,19 @@ main .containers .container-6 .sub-heading .footer-text{
     word-spacing: 0.1rem;
     padding:  0 5rem;
 }
+main .containers .container-6 .table{
+    margin-top: 1rem;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+  }
+  
+  td, th{
+    text-align: center;
+    padding: 8px;
+  }
+  
