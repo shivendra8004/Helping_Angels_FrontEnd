@@ -2,3 +2,5 @@ https://www.youtube.com/watch?v=kkeRVk3s89A
 https://www.youtube.com/watch?v=MlsV3hu84as - Complete Layout Guide
 
 Google maps Api Key:- AIzaSyD9hS7k8oXvJ23-uRGZIg62bI3zRUzWmW0
+
+Google maps 2nd Api Key:- AIzaSyAzLOnGfrn3T1E2TfxY9L33qZXCZBw-SyI
