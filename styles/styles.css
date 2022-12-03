@@ -10,6 +10,7 @@
 }
 a{
     text-decoration: none;
+    cursor: pointer;
     color: var(--color-dark);
 }
 
@@ -268,11 +269,11 @@ main .containers .container-5 .feedback-box{
 .star-widget input{
     display: none;
 }
-.star-widget .stars{
+.star{
     position: relative;
     right: 1.8rem;
 }
-.star-widget .stars label{
+.star-widget label{
     font-size: 1.6rem;
     color: rgb(182, 177, 177);
     padding: 0.8rem;
@@ -330,6 +331,7 @@ form .btn button{
  main .containers .container-6{
     padding: 2rem 2rem;
     background: var(--color-black);
+    padding-bottom: 5rem;
 }
 main .containers .container-6 .heading{
     display: flex;
@@ -363,6 +365,8 @@ table {
   }
   /* =======================Index.html Css Code Ends Here================================== */
 
+
+  /* =======================Login Form Code================================== */
   .box {
     z-index: 20;
     position: fixed;
@@ -520,7 +524,7 @@ input[type="submit"] {
 input[type="submit"]:active {
     opacity: 0.8;
 }
-/* SignUp Form Css */
+/*======================= SignUp Form Css ==================================== */
 .signUp-title {
     color: #45f3ff;
     font-weight: 500;
@@ -650,3 +654,58 @@ input[type="submit"]:active {
 .hidden{
     display: none;
 }
+
+/* ======================    Give Help ============================== */
+
+/*=============================== Feeds ===============================*/ 
+.feeds .feed{
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin: 1rem 0 ;
+    font-size: 0.85rem;
+    line-height: 1.5;
+ }
+ .feed .head {
+    display: flex;
+    justify-content: space-between;
+ }
+  .feed .user{
+    display: flex;
+    gap:1rem;
+ }
+
+  .feed .photo {
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    margin: 0.7rem 0;
+ }
+ .feed .action-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+    margin: 0.6rem;
+
+ }
+
+  .liked-by{
+    display: flex;
+
+ }
+  .liked-by span{
+    width: 1.4rem;
+    height: 1.4rem;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--color-gray);
+    margin-left: -0.6rem;
+ }
+  .liked-by span:first-child{
+    margin: 0;
+ }
+  .liked-by p{
+    margin-left: 0.5rem;
+ }
+
