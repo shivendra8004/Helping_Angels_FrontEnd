@@ -2,11 +2,19 @@
   margin: 0;
   padding: 0;
 }
+/* Font Used  */
+@font-face {
+  font-family: logoFont;
+  src: url(Resources/font/Fontspring-DEMO-proximanova-black.otf);
+}
 /* Navbar Code */
 .nav-leftdiv {
   display: flex;
 }
-.nav-leftdiv div img {
+.logoImg img {
   height: 4rem;
   aspect-ratio: 1/1;
+}
+.nav-leftdiv div h1 {
+  font-family: logoFont;
 }
