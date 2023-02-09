@@ -46,22 +46,37 @@
   .mobNavLinks {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     width: 100vw;
-    gap: 0.8rem;
     position: fixed;
     bottom: 0;
   }
+  .mobNavLinks span {
+    text-align: center;
+    width: 40%;
+    padding: 0.2rem 0;
+    background-color: rgba(0, 0, 0, 0.747);
+  }
+  .mobNavLinks span:nth-child(1) {
+    border-radius: 50% 0 0 0;
+  }
+  .mobNavLinks span:nth-child(3) {
+    border-radius: 0 50% 0 0;
+  }
   .mobNavLinks span:nth-child(2) {
+    width: 20%;
+    text-align: center;
     display: block;
     color: var(--orange);
     font-size: 2rem;
-    background-color: rgba(0, 0, 0, 0.747);
+    padding: 0.4rem 0 0.2rem 0;
+    border-radius: 50% 50% 0 0;
+    background-color: rgba(0, 0, 0, 0.78);
   }
   .mobNavLinks a {
     color: var(--orange);
     font-family: "Nunito", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font: bold;
     font-weight: 900;
   }
