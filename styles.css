@@ -39,7 +39,7 @@ nav {
   align-items: center;
 }
 .logoImg img {
-  height: 3.8rem;
+  height: 3rem;
   aspect-ratio: 1/1;
 }
 .logoText {
@@ -49,10 +49,10 @@ nav {
 .logoText h1 {
   font-family: logoFont;
   color: var(--skyblue);
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 .logoText h1 span {
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 /* Right Bottons Part */
 .nav-rightdiv {
@@ -63,7 +63,7 @@ nav {
 .nav-rightdiv a {
   color: var(--orange);
   font-family: "Nunito", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 .nav-rightdiv a:nth-child(5) {
