@@ -67,8 +67,8 @@ nav {
   font-weight: bold;
 }
 .nav-rightdiv a:nth-child(5) {
-  color: #ffffff;
-  background-color: #e95f13;
+  color: var(--white);
+  background-color: var(--orange);
   padding: 0.3rem 1rem;
   border-radius: 50px;
 }
