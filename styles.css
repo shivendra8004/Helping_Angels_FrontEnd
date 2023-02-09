@@ -4,12 +4,12 @@
   text-decoration: none;
 }
 /* Root Variables */
-:root{
-  --skyblue:#25a9e3;
-  --orange:#e95f13;
-  --lightOrange;
-  --lightSkyBlue;
-  --white;
+:root {
+  --skyblue: #25a9e3;
+  --orange: #e95f13;
+  --lightOrange: #f99f65;
+  --lightSkyBlue: #81d8fa;
+  --white: #ffffff;
 }
 /* Font Used  */
 @font-face {
@@ -61,7 +61,7 @@ nav {
   gap: 4rem;
 }
 .nav-rightdiv a {
-  color:var(--orange) ;
+  color: var(--orange);
   font-family: "Nunito", sans-serif;
   font-size: 0.8rem;
   font-weight: bold;
