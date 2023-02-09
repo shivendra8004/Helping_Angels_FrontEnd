@@ -54,6 +54,9 @@ nav {
 .logoText h1 span {
   font-size: 2rem;
 }
+.mobNav {
+  display: none;
+}
 /* Right Bottons Part */
 .nav-rightdiv {
   display: flex;

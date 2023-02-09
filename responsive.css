@@ -1,5 +1,46 @@
+:root {
+  --skyblue: #25a9e3;
+  --orange: #e95f13;
+  --lightOrange: #f99f65;
+  --lightSkyBlue: #81d8fa;
+  --white: #ffffff;
+}
 @media only screen and (max-width: 768px) {
-  body {
-    background-color: lightblue;
+  nav {
+    display: block;
+  }
+  .nav-leftdiv img {
+    height: 1.7rem;
+  }
+  .nav-leftdiv h1 {
+    font-size: 1.9rem;
+  }
+  .nav-leftdiv h1 span {
+    font-size: 1.3rem;
+  }
+  .nav-rightdiv {
+    display: block;
+  }
+  .nav-rightdiv a {
+    display: block;
+  }
+  .mobNav {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+  }
+  .mobNav a {
+    color: var(--white);
+    font-family: "Nunito", sans-serif;
+    font-size: 0.75rem;
+    padding: 0.1rem 0.5rem;
+    background-color: var(--orange);
+    border-radius: 50px;
+  }
+  .mobNav img {
+    height: 1.2rem;
+    margin-left: 1rem;
   }
 }
