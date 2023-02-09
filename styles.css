@@ -3,6 +3,14 @@
   padding: 0;
   text-decoration: none;
 }
+/* Root Variables */
+:root{
+  --skyblue:#25a9e3;
+  --orange:#e95f13;
+  --lightOrange;
+  --lightSkyBlue;
+  --white;
+}
 /* Font Used  */
 @font-face {
   font-family: logoFont;
@@ -19,7 +27,7 @@
 /* Navbar Code */
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 /* Left Logo Part */
@@ -31,7 +39,7 @@ nav {
   align-items: center;
 }
 .logoImg img {
-  height: 4rem;
+  height: 3.8rem;
   aspect-ratio: 1/1;
 }
 .logoText {
@@ -40,20 +48,27 @@ nav {
 }
 .logoText h1 {
   font-family: logoFont;
-  color: #25a9e3;
-  font-size: 3.5rem;
+  color: var(--skyblue);
+  font-size: 3.2rem;
 }
 .logoText h1 span {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
 }
 /* Right Bottons Part */
 .nav-rightdiv {
   display: flex;
+  align-items: center;
   gap: 4rem;
 }
 .nav-rightdiv a {
-  color: #e95f13;
-  font-family: buttonFont;
-  font-size: 1.5rem;
+  color:var(--orange) ;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.8rem;
   font-weight: bold;
+}
+.nav-rightdiv a:nth-child(5) {
+  color: #ffffff;
+  background-color: #e95f13;
+  padding: 0.3rem 1rem;
+  border-radius: 50px;
 }
