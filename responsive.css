@@ -9,6 +9,9 @@
   nav {
     display: block;
   }
+  .logoImg {
+    margin-left: 0.2rem;
+  }
   .nav-leftdiv img {
     height: 1.7rem;
   }
@@ -19,10 +22,7 @@
     font-size: 1.3rem;
   }
   .nav-rightdiv {
-    display: block;
-  }
-  .nav-rightdiv a {
-    display: block;
+    display: none;
   }
   .mobNav {
     display: flex;
@@ -42,5 +42,22 @@
   .mobNav img {
     height: 1.2rem;
     margin-left: 1rem;
+  }
+  .mobNavLinks {
+    display: block;
+    text-align: center;
+    background-color: skyblue;
+    height: 100vh;
+    width: 30vw;
+  }
+  .mobNavLinks span {
+    display: block;
+  }
+  .mobNavLinks a {
+    color: var(--orange);
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font: bold;
+    font-weight: 900;
   }
 }

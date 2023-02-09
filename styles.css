@@ -57,6 +57,9 @@ nav {
 .mobNav {
   display: none;
 }
+.mobNavLinks {
+  display: none;
+}
 /* Right Bottons Part */
 .nav-rightdiv {
   display: flex;
