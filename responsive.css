@@ -44,19 +44,24 @@
     margin-left: 1rem;
   }
   .mobNavLinks {
-    display: block;
-    text-align: center;
-    background-color: skyblue;
-    height: 100vh;
-    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    gap: 0.8rem;
+    position: fixed;
+    bottom: 0;
   }
-  .mobNavLinks span {
+  .mobNavLinks span:nth-child(2) {
     display: block;
+    color: var(--orange);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.747);
   }
   .mobNavLinks a {
     color: var(--orange);
     font-family: "Nunito", sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font: bold;
     font-weight: 900;
   }
