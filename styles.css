@@ -3,6 +3,15 @@
   padding: 0;
   text-decoration: none;
 }
+/* Hiding Side scrollbar */
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 /* Root Variables */
 :root {
   --skyblue: #25a9e3;
