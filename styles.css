@@ -90,12 +90,14 @@ nav {
 /* Main section Code */
 /* Landing Page code */
 .landing {
+  overflow: hidden;
   height: 90vh;
   background-color: var(--lightOrange);
-  z-index: ;
 }
 .OuterDiv {
+  display: flex;
+  background-image: url("./Resources/Hexagon-back.svg");
 }
-.background {
-  position: absolute;
+.rightside img {
+  height: 70rem;
 }
