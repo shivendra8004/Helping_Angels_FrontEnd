@@ -93,3 +93,6 @@ nav {
   height: 90vh;
   background-color: var(--lightOrange);
 }
+.OuterDiv {
+  background-image: url("./Resources/landingBack.svg");
+}
