@@ -84,7 +84,7 @@ nav {
 .nav-rightdiv a:nth-child(5) {
   color: var(--white);
   background-color: var(--orange);
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 50px;
 }
 /* Main section Code */
@@ -104,6 +104,10 @@ nav {
 .leftside {
   width: 30%;
   padding: 5rem 10rem 0 10rem;
+}
+.leftside h1 {
+  font-size: 3rem;
+  font-family: "Inter", sans-serif;
 }
 .rightside img {
   position: relative;
