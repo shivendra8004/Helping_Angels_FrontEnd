@@ -92,7 +92,10 @@ nav {
 .landing {
   height: 90vh;
   background-color: var(--lightOrange);
+  z-index: ;
 }
 .OuterDiv {
-  background-image: url("./Resources/landingBack.svg");
+}
+.background {
+  position: absolute;
 }
