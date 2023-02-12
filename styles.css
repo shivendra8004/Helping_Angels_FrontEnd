@@ -93,11 +93,21 @@ nav {
   overflow: hidden;
   height: 90vh;
   background-color: var(--lightOrange);
+  font-family: textFont;
+  color: var(--white);
 }
 .OuterDiv {
   display: flex;
+  justify-content: space-between;
   background-image: url("./Resources/Hexagon-back.svg");
 }
+.leftside {
+  width: 30%;
+  padding: 5rem 10rem 0 10rem;
+}
 .rightside img {
-  height: 70rem;
+  position: relative;
+  top: 4rem;
+  right: 4rem;
+  height: 40rem;
 }
