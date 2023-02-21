@@ -149,16 +149,11 @@ nav {
 .btn-38 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
-  background-color: #000;
+  background-color: #fff;
   background-image: none;
   color: #fff;
   cursor: pointer;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 100%;
   font-weight: 900;
-  line-height: 1.5;
   margin: 0;
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
@@ -203,7 +198,7 @@ nav {
 }
 .btn-38 .old span {
   background: #fff;
-  color: #000;
+  color: var(--orange);
   display: block;
   display: grid;
   place-items: center;
