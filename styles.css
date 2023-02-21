@@ -193,3 +193,17 @@ nav {
 .btn-38:hover .old span:nth-child(2) {
   transform: translateX(100%);
 }
+
+/* Services Section Css */
+.services {
+  height: 60vh;
+}
+.services .subSection {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+}
+.getHelp {
+  background-color: var(--lightOrange);
+}
