@@ -147,42 +147,20 @@ nav {
   box-sizing: border-box;
 }
 .btn-38 {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
   background-color: #fff;
-  background-image: none;
   color: #fff;
   cursor: pointer;
   font-weight: 900;
-  margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-  padding: 0;
-}
-.btn-38:disabled {
-  cursor: default;
-}
-.btn-38:-moz-focusring {
-  outline: auto;
-}
-.btn-38 svg {
-  display: block;
-  vertical-align: middle;
-}
-.btn-38 [hidden] {
-  display: none;
 }
 .btn-38 {
-  border: 1px solid;
-  box-sizing: border-box;
   display: block;
   overflow: hidden;
-  padding: 1.1rem 4rem;
   position: relative;
 }
 .btn-38 .new,
 .btn-38 .old span {
   font-weight: 900;
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 .btn-38 .new {
   display: block;
