@@ -92,7 +92,7 @@ nav {
 /* Landing Page code */
 .landing {
   overflow: hidden;
-  height: 90vh;
+  height: 89vh;
   background-color: var(--lightOrange);
   font-family: textFont;
   color: var(--white);
@@ -136,7 +136,7 @@ nav {
   right: 4rem;
   height: 40rem;
 }
-/* Test */
+/* Landing Page Button */
 .btn-38,
 .btn-38 *,
 .btn-38 :after,
@@ -151,8 +151,6 @@ nav {
   color: #fff;
   cursor: pointer;
   font-weight: 900;
-}
-.btn-38 {
   display: block;
   overflow: hidden;
   position: relative;
